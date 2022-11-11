@@ -14,4 +14,4 @@ set_target_properties(lab2_test PROPERTIES
 
 add_subdirectory(cpu)
 add_subdirectory(cuda)
-add_subdirectory(open_mp)
+add_subdirectory(openmp)

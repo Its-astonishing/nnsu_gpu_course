@@ -7,7 +7,7 @@
 
 #include "cpu/axpy_cpu.h"
 #include "cuda/axpy_cuda.cuh"
-#include "open_mp/axpy_openmp.h"
+#include "openmp/axpy_openmp.h"
 
 template<typename elem_t>
 auto get_rand_real() {
