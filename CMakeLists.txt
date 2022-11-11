@@ -3,3 +3,4 @@ project(cuda_labs_nnsu)
 
 add_subdirectory(lab1_hello_cuda)
 add_subdirectory(lab2_axpy)
+add_subdirectory(lab3_gemm)
