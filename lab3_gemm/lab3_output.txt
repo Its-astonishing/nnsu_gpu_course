@@ -1,0 +1,66 @@
+Checks passed!
+everything is fine!!
+Evaluating performance of block mat mul...
+[matmul_block_cpu[16]]/  512/  512/  512/  512/ : 0.100751 sec
+[matmul_block_cpu[16]]/ 1024/ 1024/ 1024/ 1024/ : 0.819919 sec
+[matmul_block_cpu[16]]/ 2048/ 2048/ 2048/ 2048/ : 7.202456 sec
+[matmul_block_cpu[16]]/ 3200/ 3200/ 3200/ 3200/ : 25.593501 sec
+[matmul_block_cpu[16]]/ 4096/ 4096/ 4096/ 4096/ : 60.648837 sec
+[matmul_block_cpu[32]]/  512/  512/  512/  512/ : 0.110259 sec
+[matmul_block_cpu[32]]/ 1024/ 1024/ 1024/ 1024/ : 0.902844 sec
+[matmul_block_cpu[32]]/ 2048/ 2048/ 2048/ 2048/ : 7.716191 sec
+[matmul_block_cpu[32]]/ 3200/ 3200/ 3200/ 3200/ : 29.200529 sec
+[matmul_block_cpu[32]]/ 4096/ 4096/ 4096/ 4096/ : 63.061474 sec
+Evaluating performance of gemm_cpp...
+[gemm_ref_cpu]/  512/  512/  512/  512/ : 0.194660 sec
+[gemm_ref_cpu]/ 1024/ 1024/ 1024/ 1024/ : 1.404846 sec
+[gemm_ref_cpu]/ 2048/ 2048/ 2048/ 2048/ : 44.508363 sec
+[gemm_ref_cpu]/ 3200/ 3200/ 3200/ 3200/ : 176.701032 sec
+Evaluating performance of gemm_cuda16_optimized...
+[gemm_cuda16_shared]/  512/  512/  512/  512/ : 0.000774 sec
+[gemm_cuda16_shared]/ 1024/ 1024/ 1024/ 1024/ : 0.005599 sec
+[gemm_cuda16_shared]/ 2048/ 2048/ 2048/ 2048/ : 0.042998 sec
+[gemm_cuda16_shared]/ 3200/ 3200/ 3200/ 3200/ : 0.143672 sec
+[gemm_cuda16_shared]/ 4096/ 4096/ 4096/ 4096/ : 0.266690 sec
+Evaluating performance of gemm_cuda16...
+[gemm_cuda16]/  512/  512/  512/  512/ : 0.000790 sec
+[gemm_cuda16]/ 1024/ 1024/ 1024/ 1024/ : 0.005501 sec
+[gemm_cuda16]/ 2048/ 2048/ 2048/ 2048/ : 0.043309 sec
+[gemm_cuda16]/ 3200/ 3200/ 3200/ 3200/ : 0.168168 sec
+[gemm_cuda16]/ 4096/ 4096/ 4096/ 4096/ : 0.344931 sec
+Evaluating performance of gemm_openmp...
+[gemm_openmp]/  512/  512/  512/  512/ : 0.045998 sec
+[gemm_openmp]/ 1024/ 1024/ 1024/ 1024/ : 0.193276 sec
+[gemm_openmp]/ 2048/ 2048/ 2048/ 2048/ : 6.364463 sec
+[gemm_openmp]/ 3200/ 3200/ 3200/ 3200/ : 24.221194 sec
+[gemm_openmp]/ 4096/ 4096/ 4096/ 4096/ : 158.928182 sec
+Evaluating performance of gemm_cpp...
+[gemm_ref_cpu]/  512/  512/  512/  512/ : 0.189467 sec
+[gemm_ref_cpu]/ 1024/ 1024/ 1024/ 1024/ : 1.401389 sec
+[gemm_ref_cpu]/ 2048/ 2048/ 2048/ 2048/ : 45.204018 sec
+
+Evaluating performance of gemm_cuda16_optimized...
+[gemm_cuda16_shared]/  512/  256/  256/  512/ : 0.000470 sec
+[gemm_cuda16_shared]/ 1024/  512/  512/ 1024/ : 0.003017 sec
+[gemm_cuda16_shared]/ 2048/ 1024/ 1024/ 2048/ : 0.021456 sec
+[gemm_cuda16_shared]/ 3200/ 1600/ 1600/ 3200/ : 0.081253 sec
+[gemm_cuda16_shared]/ 4096/ 2048/ 2048/ 4096/ : 0.134398 sec
+Evaluating performance of gemm_cuda16...
+[gemm_cuda16]/  512/  256/  256/  512/ : 0.000458 sec
+[gemm_cuda16]/ 1024/  512/  512/ 1024/ : 0.002797 sec
+[gemm_cuda16]/ 2048/ 1024/ 1024/ 2048/ : 0.021615 sec
+[gemm_cuda16]/ 3200/ 1600/ 1600/ 3200/ : 0.083527 sec
+[gemm_cuda16]/ 4096/ 2048/ 2048/ 4096/ : 0.170518 sec
+
+Messed up thread.x and thread.y:
+[gemm_cuda16_shared]/  512/  256/  256/  512/ : 0.000479 sec
+[gemm_cuda16_shared]/ 1024/  512/  512/ 1024/ : 0.002894 sec
+[gemm_cuda16_shared]/ 2048/ 1024/ 1024/ 2048/ : 0.022866 sec
+[gemm_cuda16_shared]/ 3200/ 1600/ 1600/ 3200/ : 0.084933 sec
+[gemm_cuda16_shared]/ 4096/ 2048/ 2048/ 4096/ : 0.137152 sec
+Evaluating performance of gemm_cuda16...
+[gemm_cuda16]/  512/  256/  256/  512/ : 0.001858 sec
+[gemm_cuda16]/ 1024/  512/  512/ 1024/ : 0.014232 sec
+[gemm_cuda16]/ 2048/ 1024/ 1024/ 2048/ : 0.110959 sec
+[gemm_cuda16]/ 3200/ 1600/ 1600/ 3200/ : 0.424463 sec
+[gemm_cuda16]/ 4096/ 2048/ 2048/ 4096/ : 0.883708 sec
