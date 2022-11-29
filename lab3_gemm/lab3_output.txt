@@ -45,12 +45,14 @@ Evaluating performance of gemm_cuda16_optimized...
 [gemm_cuda16_shared]/ 2048/ 1024/ 1024/ 2048/ : 0.021456 sec
 [gemm_cuda16_shared]/ 3200/ 1600/ 1600/ 3200/ : 0.081253 sec
 [gemm_cuda16_shared]/ 4096/ 2048/ 2048/ 4096/ : 0.134398 sec
+[gemm_cuda16_shared]/ 8192/ 4096/ 4096/ 8192/ : 1.079977 sec
 Evaluating performance of gemm_cuda16...
 [gemm_cuda16]/  512/  256/  256/  512/ : 0.000458 sec
 [gemm_cuda16]/ 1024/  512/  512/ 1024/ : 0.002797 sec
 [gemm_cuda16]/ 2048/ 1024/ 1024/ 2048/ : 0.021615 sec
 [gemm_cuda16]/ 3200/ 1600/ 1600/ 3200/ : 0.083527 sec
 [gemm_cuda16]/ 4096/ 2048/ 2048/ 4096/ : 0.170518 sec
+[gemm_cuda16]/ 8192/ 4096/ 4096/ 8192/ : 1.397082 sec
 
 Messed up thread.x and thread.y:
 [gemm_cuda16_shared]/  512/  256/  256/  512/ : 0.000479 sec
@@ -58,9 +60,11 @@ Messed up thread.x and thread.y:
 [gemm_cuda16_shared]/ 2048/ 1024/ 1024/ 2048/ : 0.022866 sec
 [gemm_cuda16_shared]/ 3200/ 1600/ 1600/ 3200/ : 0.084933 sec
 [gemm_cuda16_shared]/ 4096/ 2048/ 2048/ 4096/ : 0.137152 sec
+[gemm_cuda16_shared]/ 8192/ 4096/ 4096/ 8192/ : 1.093454 sec
 Evaluating performance of gemm_cuda16...
 [gemm_cuda16]/  512/  256/  256/  512/ : 0.001858 sec
 [gemm_cuda16]/ 1024/  512/  512/ 1024/ : 0.014232 sec
 [gemm_cuda16]/ 2048/ 1024/ 1024/ 2048/ : 0.110959 sec
 [gemm_cuda16]/ 3200/ 1600/ 1600/ 3200/ : 0.424463 sec
 [gemm_cuda16]/ 4096/ 2048/ 2048/ 4096/ : 0.883708 sec
+[gemm_cuda16]/ 8192/ 4096/ 4096/ 8192/ : 7.108841 sec
